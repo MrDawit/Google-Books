@@ -16,12 +16,18 @@ app.use(routes);
 
 //Mongo DB connection
 mongoose.connect(
-  process.env.MONGODB_URI || "mongo://localhost/google",
+  process.env.MONGODB_URI || "mongodb://localhost/google",
   {
     useCreateIndex: true,
     useNewUrlParser: true
   }
 );
+
+mongoose.connection
+  .once("open", () => console.log("MongoDB connected"))
+  .on("error", error => {
+    console.log("MongoDB error: ", error);
+  });
 
 // Start the API server
 app.listen(PORT, () =>
