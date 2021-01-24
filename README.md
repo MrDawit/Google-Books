@@ -11,7 +11,7 @@
 ![](https://img.shields.io/badge/-#-red)
 ![](https://img.shields.io/badge/-#-orange)
 
-An app ...!
+An app to search and save a list of books from a google api!
 
 Project Live Link: 
 
@@ -22,12 +22,12 @@ Project Live Link:
 - [Repository Link](#Repository)
 
 ## Description 
-  A simple app ...
+  A simple app that lets you search through a google books api and save your results to a database.
 
-<img src="./public/assets/img/#" />
+<img src="./client/src/assets/img/google_books.gif" />
 
 
-<img src="./public/assets/img/#" width="600" height="296" />
+<img src="./client/src/assets/img/google_books.png" width="600" height="296" />
 
 
 
@@ -36,10 +36,16 @@ Project Live Link:
 ![](https://img.shields.io/badge/-#-blue)
 ![](https://img.shields.io/badge/-dotenv-purple)
 
-* After Install: 
+
 
 ## Usage Notes
-* 
+* Type the book you want to search in the first box under the Heading
+* Click the Search button
+* The results are populated underneath the search box
+* Click Save to add the book to a database that populates your saved books on the Saved page
+* Or click View to get more details about the book that opens in a new tab
+* On the top section of the app their is a navbar to toggle between the Search page and the Saved page
+* On the Saved page, you can see a list of your saved books, view more details of each book or delete a book from your saved list!
 
 ## Created By
 [MrDawit Shalom Dawit](https://github.com/MrDawit) \
