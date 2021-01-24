@@ -8,12 +8,13 @@
 # Google-Books
 ![](https://img.shields.io/badge/Made%20with-Javascript-green)
 ![](https://camo.githubusercontent.com/cec92673ea713fa89ba2ae2033daf5851f6f39393ff5b93231aa707d424638d9/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4e6f64656a732d626c61636b3f7374796c653d666c61742d737175617265266c6f676f3d4e6f64652e6a73)
-![](https://img.shields.io/badge/-#-red)
-![](https://img.shields.io/badge/-#-orange)
+![](https://img.shields.io/badge/-Mern-green)
+![](https://img.shields.io/badge/-MongoDB-green)
+![](https://img.shields.io/badge/-React-red)
 
 An app to search and save a list of books from a google api!
 
-Project Live Link: 
+Project Live Link: https://google-books-hmwk.herokuapp.com/
 
 ## Table of contents
 - [Description](#Description)
@@ -33,8 +34,13 @@ Project Live Link:
 
 #### NPM Install, installs the following
 ![](https://img.shields.io/badge/-express-orange)
-![](https://img.shields.io/badge/-#-blue)
-![](https://img.shields.io/badge/-dotenv-purple)
+![](https://img.shields.io/badge/-axios-blue)
+![](https://img.shields.io/badge/-concurrently-grey)
+![](https://img.shields.io/badge/-if_env-yellow)
+![](https://img.shields.io/badge/-mongoose-green)
+![](https://img.shields.io/badge/-if_env-purple)
+![](https://img.shields.io/badge/-React-red)
+
 
 
 
