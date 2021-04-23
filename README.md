@@ -12,7 +12,7 @@
 ![](https://img.shields.io/badge/-MongoDB-green)
 ![](https://img.shields.io/badge/-React-red)
 
-An app to search and save a list of books from a google api!
+A MERN app to search and save a list of books from a google api!
 
 Project Live Link: https://google-books-hmwk.herokuapp.com/
 
