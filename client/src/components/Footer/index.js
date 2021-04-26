@@ -72,15 +72,17 @@ export default function Footer() {
     //   </Container>
     // </footer>
 
-    <>
-    {/* <div id="box">
-    <footer>
-    <div id="text"> SD_WORKS</div>
-    <div id="image">
-       <img src={require("./juju.png").default} alt={"juju"}/>1/21
-    </div>
-</footer>
-</div> */}
+//     <>
+//      <div id="box">
+//     <footer>
+//     <div id="text"> SD_WORKS</div>
+//     <div id="image">
+//        <img src={require("./juju.png").default} alt={"juju"}/>1/21
+//     </div>
+// </footer>
+// </div> 
+
+<>
   <footer id="outer_footer" >
  
  <div className="row footerRow">
