@@ -86,12 +86,12 @@ export default function Footer() {
  <div className="row footerRow">
    
      <div className="col-lg-9  col-md-6 col-sm-6 col-xs-6"/>
-   <div id="texting" className="col-lg-3 col-md-6 col-sm-6 col-xs-6"> Created By NEW DIGITAL WORLD</div>
+   <div id="texting" className="col-lg-3 col-md-6 col-sm-6 col-xs-6">Created By NEW DIGITAL WORLD</div>
    </div>
    <div className="row footerRow">
    <div className="col-lg-10 col-md-10 col-sm-10"/>
    <div id="image" className="col-lg-2 col-md-2 col-sm-2">
-   <img src={require("./juju.png").default} alt={"juju"}/>1/21
+   <img alt={"juju"} src={require("./JUJU_ICON.PNG").default}/> 1/21
    </div>
    </div>
 </footer>
