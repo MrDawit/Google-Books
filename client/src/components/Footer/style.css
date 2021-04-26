@@ -40,7 +40,6 @@ footer{
   border-color: rgb(23, 2, 37);
   padding:2px 2px 0px 2px;
 color:black;
-/* added opacity to background-color style */
 background-color:rgba(0, 0, 0, 0.6);
 
 
@@ -54,9 +53,12 @@ background-color:rgba(0, 0, 0, 0.6);
 color:black;
 font-weight: lighter;
 font-size: large;
-  /*text-align:center; */
-  /* background-color:rgb(130, 132, 175);*/
-  /* background: linear-gradient(45deg,black,indigo, #053ea8, #7a00ff);  */
   background: linear-gradient(90deg,rgb(68, 10, 116),rgb(125, 23, 207),rgb(137, 31, 224));
   background-clip:border-box;
+}
+
+#image_icon {
+  height:150px;
+  width:150px;
+  background-image: "../../assets/img/juju.png" !important;
 }
