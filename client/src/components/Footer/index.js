@@ -93,7 +93,7 @@ export default function Footer() {
    <div className="row footerRow">
    <div className="col-lg-10 col-md-10 col-sm-10"/>
    <div id="image" className="col-lg-2 col-md-2 col-sm-2">
-   <img id="image_icon" alt={"juju"} src={require("../../assets/img/juju.png").default}/> 1/21
+   <img id="image_icon"  alt={"juju"}/> 1/21
    </div>
    </div>
 </footer>
@@ -101,3 +101,6 @@ export default function Footer() {
 </>
   );
 }
+
+
+// src={require("../../assets/img/juju.png").default}
