@@ -58,9 +58,9 @@ font-size: large;
 }
 
 #image_icon {
-  height:400px;
+  height:100%;
   /* width:150px; */
-  background-image: url("../../assets/img/juju.png");
-  background-repeat:no-repeat;
+  /* background-image: url("../../assets/img/juju.png");
+  background-repeat:no-repeat; */
 
 }
