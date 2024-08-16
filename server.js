@@ -27,6 +27,8 @@ mongoose.connect(
   }
 );
 
+mongoose.set('strictQuery', true);
+
 mongoose.connection
   .once("open", () => console.log("MongoDB connected"))
   .on("error", error => {
