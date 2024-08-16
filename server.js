@@ -1,9 +1,13 @@
+require('dotenv').config();
 const express = require("express");
 
 const mongoose = require("mongoose");
 const routes = require("./routes");
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.REACT_APP_PORT || 3001;
+
+//console.log("REACT_APP_MONGODB_URI: "+process.env.REACT_APP_MONGODB_URI);
+//console.log("REACT_APP_PORT: "+process.env.REACT_APP_PORT);
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -16,9 +20,9 @@ app.use(routes);
 
 //Mongo DB connection
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/google",
+  process.env.REACT_APP_MONGODB_URI || "mongodb://localhost/google",
   {
-    useCreateIndex: true,
+    // useCreateIndex: true,
     useNewUrlParser: true
   }
 );

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 
 import Saved from "./pages/Saved";
@@ -12,11 +12,11 @@ function App() {
     <>
     <Router>
       <Nav/>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/saved" component={Saved} />
-          <Route component={NoMatch} />
-        </Switch>
+        <Routes>
+          <Route exact path='/' component={<Home/>} />
+          <Route exact path='/saved' component={<Saved/>} />
+          <Route component={<NoMatch/>} />
+        </Routes>
       
     </Router>
     </>
