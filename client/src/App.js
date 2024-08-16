@@ -13,9 +13,9 @@ function App() {
     <Router>
       <Nav/>
         <Routes>
-          <Route exact path='/' component={<Home/>} />
-          <Route exact path='/saved' component={<Saved/>} />
-          <Route component={<NoMatch/>} />
+          <Route exact path='/' element={<Home/>} />
+          <Route exact path='/saved' element={<Saved/>} />
+          <Route element={<NoMatch/>} />
         </Routes>
       
     </Router>
