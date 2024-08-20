@@ -9,7 +9,7 @@ import { Col, Row, Container } from "../components/Grid";
 import { List } from "../components/List";
 import "../assets/css/Home.css";
 
-class Home extends Component {
+export default function Home() {
   state = {
     books: [],
     q: "",
@@ -57,7 +57,7 @@ class Home extends Component {
     }).then(() => this.getBooks());
   };
 
-  render() {
+
     return (
       <>
       <Container>
@@ -116,6 +116,5 @@ class Home extends Component {
       </>
     );
   }
-}
 
-export default Home;
+

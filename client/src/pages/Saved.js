@@ -7,7 +7,7 @@ import API from "../utils/API";
 import { Col, Row, Container } from "../components/Grid";
 import { List } from "../components/List";
 
-class Saved extends Component {
+export default function Saved(){
   state = {
     books: []
   };
@@ -30,7 +30,7 @@ class Saved extends Component {
     API.deleteBook(id).then(res => this.getSavedBooks());
   };
 
-  render() {
+  
     return (
       <Container>
         <Row>
@@ -77,7 +77,4 @@ class Saved extends Component {
         <Footer />
       </Container>
     );
-  }
-}
-
-export default Saved;
+  };
